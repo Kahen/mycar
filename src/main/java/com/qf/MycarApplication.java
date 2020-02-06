@@ -9,7 +9,7 @@ import org.springframework.boot.web.servlet.ServletComponentScan;
 @MapperScan("com.qf.dao")
 @ServletComponentScan(basePackages = "com.qf.config")
 public class MycarApplication {
-    //主程序
+    //这是主程序
     public static void main(String[] args) {
         SpringApplication.run(MycarApplication.class, args);
     }
